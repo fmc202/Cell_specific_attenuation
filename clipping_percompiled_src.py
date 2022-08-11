@@ -7,10 +7,10 @@
 # Features: Precomiple before runtime to achieve 500x faster and 5000x faster than pure python and R codes
 #           Shared object is created after compliation which can be distributed without numba dependency
 #
-# Warning: !!! always use numpy array with float64 for performance/ try different spacing if result is not correct
+# Warning: !!! always use numpy array with float64 for performance/ try different cell grid spacing if result is not accurate
 # usage: install numpy and numba, then run this script as main module,
-#        finally a .so file will be created for the corresponding platform
-#        The .so file can be shared with others and no numba is required to import and use the .so module
+#        finally a .pyd or .so file will be created for the corresponding platform
+#        The .pyd or .so file can be shared with others and no numba is required to import and use the .so module
 # --------------------------------------------------------------------------------------------------------------------------------------------------
 
 import numpy as np

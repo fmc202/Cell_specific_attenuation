@@ -2,13 +2,13 @@
 efficient and simple implementation of cell specific attenuation for GMM
 
 
-Highlights:
+## Highlights:
 1. pre-specify the static types of input and output of the function
 2. use JIT (Just-In-Time) compliation with LLVM (Low Level Virtual Machine) complier to achieve the same speed as C
 3. use fastmath optimization and Intel SVML (short vector math library) intrinsic functions to
  override the strict IEEE 754 compliance for floating point arithmetics
 
-How to Use
+## How to Use
 There are three ways to run the script, details are documented in the script's header as well as comments.
 1. use JIT version which requires installation of numpy and numba. Just directly import the clipping_jit_version.py module
 2. use precompiled version (the .pyd file, currently compiled only for 64bit win10), which requires numpy installation only.
@@ -18,7 +18,7 @@ a .pyd file should be genearated for the current platform and CPU, which can be 
 
 
 
-Reference:
+## Reference:
 Liu, C., Macedo, J., & Kottke, A. R. (2022). Evaluating the performance of nonergodic ground motion models in the ridgecrest area. Bulletin of Earthquake Engineering, 1-27.
 
 Cite as:
